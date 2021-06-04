@@ -1,0 +1,93 @@
+{% load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marquise Harding</title>
+    <link href="{%static '/css/main.css'%}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{%static 'images/MarquiseHarding.jpg'%}" alt="">
+                    <hr>
+                    <h4>Hey I'm Marquise!</h4>
+                    <p>I love constantly improving myself and building applications</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <div class="card card-body h-100  border-info">
+                        <h4>Why am I a Developer</h4>
+                        <hr>
+                        <p>We all know that person in a family who is the tech person in the family. That was me. I just you can say that my love for technology started then. You see, I am a person who loves to constantly learn new things. I get excited
+                            when my code works and I can say that I have build something. I feel like Dr. Frankenstein creating his famous monster. My love programming is simply that, to have the ability to create something that you thought of and bring
+                            it life in a sense.As well the challenge that comes with it. </p>
+                        <ul class="social-links">
+                            <li><img class="social" src="{% static 'images/download.png' %}">
+                                <a href="https://twitter.com/CoderRedcliffe">Twitter</a>
+                            </li>
+                            <li><img class="social" src="{% static 'images/Github-Mark.png' %}"><a href="https://github.com/MisterRedcliffe">Github</a></li>
+                            <li><img class="social" src="{% static 'images/Youtube-Emblem.png' %}"><a href="https://www.youtube.com/channel/UCWvQGPU2JTNTzssnuaODRSQ">Youtube Channel</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h5>My Experience as a Developer</h5>
+                        <hr>
+                        <p>From being a student and being a solo learner </p>
+                        <p>Built small projects in different languages from JavaScript with HTML and CSS to Python.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h5>What I Am Learning</h5>
+                        <hr>
+                        <p>Python, Django, HTML/CSS, JavaScript, Vue, React</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h5>How I Learn</h5>
+                        <hr>
+                        <p>Reading different articles on the language that I learning at the time (right now it's Python)</p>
+
+                        <p>Watching Youtube videos on the language, building small projects with the language, and learning from more experience developers </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card card-body h-100">
+                        <h5>My Short Term Goals</h5>
+                        <hr>
+                        <p>My current goal is to find a place that I can work at that can also help me grow as a developer.</p>
+                        <p>My secondary goal is to get my Youtube channel back up and running for I can help other beginner developers to get through the highs and lows of becoming a developer</p>
+
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+
+</body>
+
+</html>
